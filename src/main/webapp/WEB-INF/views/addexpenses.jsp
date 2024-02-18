@@ -121,8 +121,8 @@
     <div class="container">
         <h1>User Dashboard</h1>
         <div class="content">
-            <h2>Add Income</h2>
-			<form action="/budgetbuddy/addIncome" method="post">
+            <h2>Add  Expenses</h2>
+			<form action="/budgetbuddy/addexpenses" method="post">
 			    <label for="incomeAmount">Amount:</label>
 			    <input type="text" id="incomeAmount" name="amount" placeholder="Enter amount">
 			    <label for="incomeCategory">Category:</label>
@@ -132,6 +132,7 @@
         </div>
     </div>
 </body>
+
 <footer>
     &copy; 2024 BudgetBuddy.
 </footer>

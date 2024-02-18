@@ -4,9 +4,9 @@ import java.util.List;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-public interface IncomeRepository extends JpaRepository<Income, Long> {
+public interface ExpensesRepository extends JpaRepository<Expenses, Long> {
 
-	List<Income> findByUserId(int userId);
+	List<Expenses> findByUserId(int userId);
 
 	
 
